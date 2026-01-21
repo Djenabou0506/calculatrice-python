@@ -15,3 +15,7 @@ def division(a, b):
     if b == 0:
         return "Erreur: division par zéro"
     return a / b
+
+if __name__ == "__main__":
+    print("multiplication: 5 * 3 =", multiplication(5, 3))
+    print("division: 5 / 3 =", division(5, 3))
