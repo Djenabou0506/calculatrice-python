@@ -19,3 +19,8 @@ def division(a, b):
 if __name__ == "__main__":
     print("multiplication: 5 * 3 =", multiplication(5, 3))
     print("division: 5 / 3 =", division(5, 3))
+
+def puissance(a, b):
+    return a ** b
+if __name__ == "__main__":
+    print("puissance: 5 ** 3 =", puissance(5, 3))
