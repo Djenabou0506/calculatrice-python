@@ -1,3 +1,5 @@
+import math
+
 def addition(a, b):
     return a + b
 
@@ -24,3 +26,9 @@ def puissance(a, b):
     return a ** b
 if __name__ == "__main__":
     print("puissance: 5 ** 3 =", puissance(5, 3))
+
+def racine_carree(a):
+    if a < 0:
+        return "Erreur: nombre négatif"
+    return math.sqrt(a)
+
