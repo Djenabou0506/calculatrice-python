@@ -25,6 +25,7 @@ def racine_carree(a):
 
 def modulo(a, b):
     return a % b
+<<<<<<< HEAD
 
 def factorielle(n):
     if n < 0:
@@ -43,3 +44,11 @@ if __name__ == "__main__":
     print("Racine carrée: 5 =", racine_carree(5))
     print("Modulo: 5 % 2 =", modulo(5, 2))
     print("Factorielle: 5! =", factorielle(5))
+=======
+if __name__ == "__main__":
+    print("modulo: 5 % 3 =", modulo(5, 3))
+
+def factorielle(n):
+    ...
+
+>>>>>>> e858643b2ee0b3c9e511e11225143d4c54e07375
