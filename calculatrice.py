@@ -32,3 +32,11 @@ def racine_carree(a):
         return "Erreur: nombre négatif"
     return math.sqrt(a)
 
+def modulo(a, b):
+    return a % b
+if __name__ == "__main__":
+    print("modulo: 5 % 3 =", modulo(5, 3))
+
+def factorielle(n):
+    ...
+
